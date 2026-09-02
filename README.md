@@ -1,8 +1,8 @@
-# Deepali Singh — Personal Portfolio
+# Deepali Singh — Personal Engineering Portfolio
 
 > High-performance engineering portfolio showcasing applied AI/ML systems, Computer Vision models (MediaPipe), and native Android architectures.
 
-🌐 **Live Website**: [https://deepali-19.github.io/](https://deepali-19.github.io/)
+🌐 **Live Website**: [https://deepali-singh.web.app](https://deepali-singh.web.app)
 
 ---
 
@@ -14,7 +14,7 @@
   - Dark mode (Deep midnight canvas with indigo glow & high-contrast glassmorphism)
   - 3D Tilt interactive portrait card (VanillaTilt)
   - Interactive Project Category filtering (All, AI & Vision, Android, Civic Tech)
-  - Certificate Lightbox preview modals
+  - Certificate Lightbox preview modals (SSS Patna, LPU CPE Grade 'A', O7 Services)
   - Responsive across all mobile, tablet, and desktop breakpoints
 
 ---
