@@ -2,7 +2,7 @@
 
 > High-performance engineering portfolio showcasing applied AI/ML systems, Computer Vision models (MediaPipe), and native Android architectures.
 
-🌐 **Live Website**: [https://deepali-singh.web.app](https://deepali-singh.web.app)
+🌐 **Live Website**: [https://deepali-singh.web.app/]
 
 ---
 
