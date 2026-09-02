@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="100%" stop-color="#141e33" />
+    </linearGradient>
+    <linearGradient id="civicGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6b4a" />
+      <stop offset="100%" stop-color="#7c6ef7" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg2)" />
+  <circle cx="400" cy="210" r="150" fill="url(#civicGlow)" opacity="0.15" filter="blur(40px)" />
+  <!-- Map Pin & City Grid -->
+  <g transform="translate(300, 90)">
+    <path d="M100,30 C60,30 30,60 30,100 C30,150 100,230 100,230 C100,230 170,150 170,100 C170,60 140,30 100,30 Z" fill="url(#civicGlow)" />
+    <circle cx="100" cy="100" r="28" fill="#080c14" />
+    <path d="M90,100 L110,100 M100,90 L100,110" stroke="#00f5a0" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="400" y="380" fill="#f4f6fb" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto" font-size="24" font-weight="bold" text-anchor="middle">UrbanFix • Smart Civic Portal</text>
+  <text x="400" y="410" fill="#ff6b4a" font-family="monospace" font-size="14" text-anchor="middle">GPS MAPPING &amp; MUNICIPAL DASHBOARD</text>
+</svg>

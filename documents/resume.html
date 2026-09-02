@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deepali Singh — Resume</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 12mm 15mm;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Times New Roman', Times, serif, -apple-system, sans-serif;
+      color: #000;
+      background: #fff;
+      line-height: 1.35;
+      font-size: 10.5pt;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    a {
+      color: #0000ee;
+      text-decoration: underline;
+    }
+    /* Header */
+    .header-name {
+      font-size: 22pt;
+      font-weight: bold;
+      color: #1a2a6c;
+      margin-bottom: 4px;
+    }
+    .header-links {
+      display: flex;
+      justify-content: space-between;
+      font-size: 9.5pt;
+      margin-bottom: 2px;
+    }
+    .header-links-row2 {
+      display: flex;
+      justify-content: space-between;
+      font-size: 9.5pt;
+      margin-bottom: 8px;
+    }
+    /* Section Headings */
+    .section-title {
+      font-size: 11pt;
+      font-weight: bold;
+      color: #1a2a6c;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border-bottom: 1px solid #1a2a6c;
+      margin-top: 10px;
+      margin-bottom: 6px;
+      padding-bottom: 1px;
+    }
+    /* Skills */
+    .skills-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 10pt;
+      margin-bottom: 4px;
+    }
+    .skills-table td {
+      padding: 1.5px 0;
+      vertical-align: top;
+    }
+    .skills-label {
+      font-weight: bold;
+      color: #1a2a6c;
+      width: 180px;
+    }
+    /* Projects & Roles */
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-size: 10.5pt;
+      margin-top: 5px;
+      margin-bottom: 2px;
+    }
+    .item-title {
+      font-weight: bold;
+      color: #1a2a6c;
+    }
+    .item-date {
+      font-size: 9.5pt;
+      font-weight: normal;
+      color: #000;
+    }
+    ul.item-bullets {
+      list-style-type: disc;
+      margin-left: 18px;
+      margin-bottom: 4px;
+      font-size: 9.8pt;
+    }
+    ul.item-bullets li {
+      margin-bottom: 2px;
+      text-align: justify;
+    }
+    .tech-stack-line {
+      font-size: 9.5pt;
+      margin-left: 18px;
+      margin-bottom: 5px;
+      font-style: italic;
+    }
+    /* Education Table */
+    .edu-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 4px;
+      font-size: 10pt;
+    }
+    .edu-inst {
+      font-weight: bold;
+      color: #1a2a6c;
+    }
+    .edu-loc {
+      font-weight: normal;
+      color: #000;
+    }
+    /* Print optimizations */
+    @media print {
+      body {
+        padding: 0;
+      }
+      .no-print {
+        display: none;
+      }
+    }
+    .print-banner {
+      background: #f4f6f8;
+      border: 1px solid #ccd;
+      padding: 8px 12px;
+      border-radius: 6px;
+      margin-bottom: 15px;
+      font-family: sans-serif;
+      font-size: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .print-btn {
+      background: #1a2a6c;
+      color: #fff;
+      border: none;
+      padding: 6px 14px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="print-banner no-print">
+    <span>📄 <strong>Printable Technical Resume</strong> — 100% matched to your official resume.</span>
+    <button class="print-btn" onclick="window.print()">🖨️ Print / Save as PDF</button>
+  </div>
+
+  <!-- HEADER -->
+  <div class="header-name">Deepali Singh</div>
+  <div class="header-links">
+    <div>LinkedIn: <a href="https://www.linkedin.com/in/deepali-singh19" target="_blank">linkedin.com/in/deepali-singh19</a></div>
+    <div>Email: <a href="mailto:deepalis1003@gmail.com">deepalis1003@gmail.com</a></div>
+  </div>
+  <div class="header-links-row2">
+    <div>Github: <a href="https://github.com/Deepali-19" target="_blank">https://github.com/Deepali-19</a></div>
+    <div>Phone No: +91 911191 - 52143</div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section-title">SKILLS</div>
+  <table class="skills-table">
+    <tr>
+      <td class="skills-label">Languages:</td>
+      <td>C++, Python, Kotlin, Java, C, SQL, JavaScript</td>
+    </tr>
+    <tr>
+      <td class="skills-label">AI / ML &amp; Frameworks:</td>
+      <td>MediaPipe, TensorFlow, OpenCV, Scikit-learn, LSTM Networks, Pandas, NumPy, Matplotlib</td>
+    </tr>
+    <tr>
+      <td class="skills-label">Tools/Platforms:</td>
+      <td>Android Studio (MVVM, Room DB, CameraX), Firebase, Git, GitHub, Docker, Linux</td>
+    </tr>
+    <tr>
+      <td class="skills-label">Core Competencies:</td>
+      <td>Data Structures &amp; Algorithms, Object-Oriented Architecture, Relational DBMS</td>
+    </tr>
+    <tr>
+      <td class="skills-label">Soft Skills:</td>
+      <td>Problem-Solving, Analytical Thinking, Cross-Functional Team Collaboration, Agile Methodologies, Adaptability</td>
+    </tr>
+  </table>
+
+  <!-- PROJECTS -->
+  <div class="section-title">PROJECTS</div>
+
+  <div class="item-header">
+    <div class="item-title">FitBuddy AI — Vision Kinematic Fitness Assistant | <a href="https://github.com/Deepali-19/fitbuddy-ai" target="_blank">GITHUB</a> | <a href="https://fitbuddy-ai-35982.web.app/" target="_blank">LIVE DEMO</a></div>
+    <div class="item-date">May’ 26</div>
+  </div>
+  <ul class="item-bullets">
+    <li>Built a computer vision posture analysis system using MediaPipe 33-point landmarks and LSTM, achieving 94%+ posture accuracy.</li>
+    <li>Implemented real-time joint-angle analysis, audio feedback, and automated repetition counting.</li>
+    <li>Developed a responsive web client with Firebase Hosting, achieving &lt;35ms inference latency per frame.</li>
+  </ul>
+  <div class="tech-stack-line">Tech Stack: Python, MediaPipe, OpenCV, TensorFlow/LSTM, Kotlin, Firebase</div>
+
+  <div class="item-header">
+    <div class="item-title">UrbanFix — Cloud-Integrated Municipal Grievance Redressal | <a href="https://github.com/Deepali-19/UrbanFix" target="_blank">GITHUB</a></div>
+    <div class="item-date">Apr’ 26</div>
+  </div>
+  <ul class="item-bullets">
+    <li>Built a full-stack civic reporting platform with Google Maps SDK, geospatial issue tracking, department routing, and role-based dashboards.</li>
+    <li>Implemented Firebase Cloud Messaging (FCM) for real-time updates, reducing grievance resolution time by 40%.</li>
+    <li>Designed Firestore schemas and security rules for role-based data access.</li>
+  </ul>
+  <div class="tech-stack-line">Tech Stack: JavaScript, Google Maps API, Firebase Firestore, Cloud Functions, FCM</div>
+
+  <div class="item-header">
+    <div class="item-title">UrbanFix Civilian — Offline-First Citizen Android Client | <a href="https://github.com/Deepali-19/UrbanFix-Civilian" target="_blank">GITHUB</a></div>
+    <div class="item-date">Mar’ 26</div>
+  </div>
+  <ul class="item-bullets">
+    <li>Developed a native Android app using Kotlin, MVVM, and CameraX for compressed geotagged evidence capture.</li>
+    <li>Implemented offline-first caching with Room DB and SQLite for background synchronization after network reconnection.</li>
+  </ul>
+  <div class="tech-stack-line">Tech Stack: Kotlin, Android Jetpack, Room Database, CameraX, LiveData &amp; ViewModel</div>
+
+  <!-- TRAINING & EXPERIENCE -->
+  <div class="section-title">TRAINING &amp; EXPERIENCE</div>
+
+  <div class="item-header">
+    <div class="item-title">Android App Developer Intern | Software Services And Solutions (SSS Patna) | Certificate</div>
+    <div class="item-date">Jan’ 26 – May’ 26</div>
+  </div>
+  <ul class="item-bullets">
+    <li>Developed modular Android applications using Kotlin and MVVM architecture.</li>
+    <li>Integrated RESTful APIs and Room SQLite, improving data retrieval efficiency by 35%.</li>
+    <li>Implemented unit tests and resolved UI issues across Android OS versions. (Cert No: SSS/2026/451)</li>
+  </ul>
+
+  <!-- CERTIFICATES -->
+  <div class="section-title">CERTIFICATES</div>
+  <table style="width: 100%; font-size: 9.8pt; margin-bottom: 4px;">
+    <tr>
+      <td>Applied AI &amp; Machine Learning (Grade ‘A’) | <em>LPU Centre for Professional Enhancement</em></td>
+      <td style="text-align: right; width: 80px;">Jul’ 26</td>
+    </tr>
+    <tr>
+      <td>Android App Development Internship (5 Months) | <em>Software Services And Solutions (SSS)</em></td>
+      <td style="text-align: right;">May’ 26</td>
+    </tr>
+    <tr>
+      <td>Android Application Development using Kotlin | <em>O7 Services</em></td>
+      <td style="text-align: right;">Jul’ 25</td>
+    </tr>
+  </table>
+
+  <!-- EDUCATION -->
+  <div class="section-title">EDUCATION</div>
+  
+  <div style="margin-bottom: 6px;">
+    <div class="edu-item">
+      <div class="edu-inst">Lovely Professional University</div>
+      <div class="edu-loc">Phagwara, Punjab</div>
+    </div>
+    <div class="edu-item" style="font-size: 9.5pt;">
+      <div>Bachelor of Technology (B.Tech) — Computer Science and Engineering (Lateral Entry)</div>
+      <div>Aug’ 26 – Present</div>
+    </div>
+  </div>
+
+  <div style="margin-bottom: 6px;">
+    <div class="edu-item">
+      <div class="edu-inst">Lovely Professional University</div>
+      <div class="edu-loc">Phagwara, Punjab</div>
+    </div>
+    <div class="edu-item" style="font-size: 9.5pt;">
+      <div>Diploma in Computer Science and Engineering</div>
+      <div>Aug’ 23 – May’ 26</div>
+    </div>
+    <div style="font-size: 9pt; color: #1a2a6c; font-weight: bold;">(7.3 CGPA)</div>
+  </div>
+
+  <div>
+    <div class="edu-item">
+      <div class="edu-inst">National Institute of Open Schooling (NIOS)</div>
+      <div class="edu-loc">India</div>
+    </div>
+    <div class="edu-item" style="font-size: 9.5pt;">
+      <div>Senior Secondary (Class XII) — Science &amp; Mathematics</div>
+      <div>2023 – 2024</div>
+    </div>
+    <div style="font-size: 9pt; color: #1a2a6c; font-weight: bold;">First Division</div>
+  </div>
+
+</body>
+</html>
